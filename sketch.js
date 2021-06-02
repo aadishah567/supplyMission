@@ -78,6 +78,7 @@ function draw() {
 
   if(keyCode === RIGHT_ARROW){
 	helicopterSprite.x = helicopterSprite.x + 1;
+	package.body.x = helicopterSprite.x
   }
 
 	if(keyCode === LEFT_ARROW){
